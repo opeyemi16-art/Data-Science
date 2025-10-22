@@ -241,11 +241,13 @@ footer li {
   }
   .our-process {
     /* white-space: nowrap; */
-    display: block !important;
-    /* justify-self: center !important; */
+    /* display: block !important; */
+    justify-content: center !important;
+    display: flex !important;
   }
   .our-process .card {
-    margin-bottom: 40% !important;
+    /* margin-bottom: 0% !important; */
+    justify-content: center !important;
   }
   .each-unit {
     padding: 10% 0%;
